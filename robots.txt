@@ -1,0 +1,40 @@
+User-agent: *
+Allow: /
+Disallow: /admin-secret
+Disallow: /api/
+Disallow: /profile
+Disallow: /settings
+Disallow: /transactions
+Disallow: /withdraw
+Disallow: /deposit
+Disallow: /achievements
+Disallow: /chat
+Disallow: /referral
+Disallow: /partner-dashboard
+
+Sitemap: https://exoption.trade/sitemap.xml
+
+User-agent: Googlebot
+Allow: /
+Allow: /binary-options
+Allow: /strategies
+Allow: /beginners
+Allow: /demo
+Allow: /signals
+Allow: /blog
+Disallow: /api/
+Disallow: /admin-secret
+
+User-agent: Yandexbot
+Allow: /
+Allow: /binary-options
+Allow: /strategies
+Allow: /beginners
+Allow: /demo
+Allow: /signals
+Allow: /blog
+Disallow: /api/
+Disallow: /admin-secret
+
+# EXOPTION - Платформа бинарных опционов
+# https://exoption.trade
